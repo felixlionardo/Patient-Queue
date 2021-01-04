@@ -1,0 +1,28 @@
+﻿Build started 1/4/2021 2:51:20 AM.
+     1>Project "D:\SFU Fall 2019\CMPT 225\abc\abc\abc.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\Assignment.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt "..\..\Assignment 1.2\Assignment 1.2\List.cpp" "..\..\Assignment 1.2\Assignment 1.2\Patient.cpp" "..\..\Assignment 1.2\Assignment 1.2\walkIn.cpp"
+         Patient.cpp
+         List.cpp
+         Generating Code...
+         Compiling...
+         walkIn.cpp
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\SFU Fall 2019\CMPT 225\abc\Debug\Assignment.exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\Assignment.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\SFU Fall 2019\CMPT 225\abc\Debug\Assignment.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\SFU Fall 2019\CMPT 225\abc\Debug\Assignment.lib" /MACHINE:X86 Debug\List.obj
+         Debug\Patient.obj
+         Debug\walkIn.obj
+         LINK : D:\SFU Fall 2019\CMPT 225\abc\Debug\Assignment.exe not found or not built by the last incremental link; performing full link
+         abc.vcxproj -> D:\SFU Fall 2019\CMPT 225\abc\Debug\Assignment.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"D:\SFU Fall 2019\CMPT 225\abc\Debug\Assignment.exe;#1" /manifest Debug\Assignment.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Debug\Assignment.unsuccessfulbuild".
+         Touching "Debug\Assignment.lastbuildstate".
+     1>Done Building Project "D:\SFU Fall 2019\CMPT 225\abc\abc\abc.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.21
